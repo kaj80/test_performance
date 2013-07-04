@@ -1,0 +1,5 @@
+Buffer size: 1024 MB; Block size: 1024 bytes
+realloc;copy block;destroy: cpu time: 0.64000 sec.
+alloc;copy block;destroy: cpu time: 0.37300 sec.
+alloc;copy all;destroy: cpu time: 0.39400 sec.
+reuse;copy all: cpu time: 0.28300 sec.
