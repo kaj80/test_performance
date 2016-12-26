@@ -10,6 +10,8 @@ static int tries  =  10;
 
 typedef void(copy_buffer)(const char*, size_t);
 
+
+
 char* prepare_test_data(size_t size){
 	char* tmp = (char*)malloc(size*sizeof(char));
 	size_t i = 0;
