@@ -52,8 +52,8 @@ void copy_data_method_2(const char* buffer, size_t size){
 
 void copy_data_method_3(const char* buffer, size_t size){
 	char* tmp = (char*)malloc(size*sizeof(char));
-	memcpy(tmp,buffer,size); 
-	
+	memcpy(tmp,buffer,size);
+
 	free(tmp);
 }
 
